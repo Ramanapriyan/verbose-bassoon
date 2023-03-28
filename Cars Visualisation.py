@@ -122,7 +122,7 @@ sns.heatmap(c,cmap="BrBG",annot=True)
 # In[25]:
 
 
-# Plotting a scatter plot
+# Plotting a scatter plot:
 fig, ax = plt.subplots(figsize=(5,5))
 ax.scatter(df['Horsepower'], df['MSRP'])
 plt.title('Scatter plot between MSRP and Horsepower')
