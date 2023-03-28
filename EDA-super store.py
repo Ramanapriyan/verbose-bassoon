@@ -33,7 +33,7 @@ df.describe()
 # In[5]:
 
 
-#Dropping the Row ID column
+#Dropping the Row ID column:
 df.drop('Row ID',axis = 1,inplace = True)
 #convert order dates to pandas datetime format
 df['Order Date'] = pd.to_datetime(df['Order Date'], format='%d/%m/%Y')
