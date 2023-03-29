@@ -60,7 +60,7 @@ df[247:249]
 # In[13]:
 
 
-# Filling the rows with the mean of the column
+# Filling the rows with the mean of the column:
 
 val = df['Cylinders'].mean()
 df['Cylinders'][247] = round(val)
