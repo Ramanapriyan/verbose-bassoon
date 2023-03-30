@@ -58,7 +58,7 @@ print(residuals.describe())
 
 # In[16]:
 
-# mean squared error
+# mean squared error :
 from sklearn.metrics import mean_squared_error
 
 X = series.values
